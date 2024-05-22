@@ -13,5 +13,12 @@
     "editor.experimentalInlineEdit.backgroundColoring": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/.tex_distr" // %DIR%
+    "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/.tex_distr",
+    "latex-workshop.bibtex-format.tab": "4 spaces",
+    "latex-workshop.latexindent.args": [
+        "-c",
+        "%DIR%/",
+        "%TMPFILE%",
+        "-y=defaultIndent: '    '"
+    ] // %DIR%
 }
