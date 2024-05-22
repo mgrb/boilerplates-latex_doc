@@ -4,10 +4,16 @@ version = "0.1.0"
 description = "Projeto para padronizar a elaboração de Docs usando LaTeX, Jupyter Notebooks e scripts Python."
 authors = ["Marlos Ribeiro <marlos.mgrb@gmail.com>"]
 readme = "README.md"
+package-mode = false
+
 
 [tool.poetry.dependencies]
 python = "^3.12"
 
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.4"
+ipykernel = "^6.29.4"
 
 [build-system]
 requires = ["poetry-core"]
