@@ -1,0 +1,17 @@
+{
+    "ruff.lint.run": "onSave",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "notebook.formatOnCellExecution": true,
+    "notebook.formatOnSave.enabled": true,
+    "latex-workshop.bibtex-format.sort.enabled": true,
+    "latex-workshop.message.information.show": true,
+    "evenBetterToml.formatter.allowedBlankLines": 1,
+    "evenBetterToml.formatter.columnWidth": 80,
+    "python.analysis.autoFormatStrings": true,
+    "python.missingPackage.severity": "Warning",
+    "editor.experimentalInlineEdit.backgroundColoring": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/.tex_distr" // %DIR%
+}
