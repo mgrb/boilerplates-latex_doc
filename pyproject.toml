@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "reports-factory"
+version = "0.1.0"
+description = "Projeto para padronizar a elaboração de Docs usando LaTeX, Jupyter Notebooks e scripts Python."
+authors = ["Marlos Ribeiro <marlos.mgrb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
