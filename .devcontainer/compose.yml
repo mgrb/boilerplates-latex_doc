@@ -1,0 +1,7 @@
+services:
+  latex-project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/latex_project:cached

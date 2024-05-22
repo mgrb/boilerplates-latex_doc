@@ -1,0 +1,16 @@
+{
+    "name": "Latex Project",
+
+    "dockerComposeFile": "compose.yml",
+    "service": "latex-project",
+
+    "remoteUser": "latex_usr",
+    "workspaceFolder": "/latex_project",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "James-Yu.latex-workshop"
+            ]
+        }
+    }
+}
